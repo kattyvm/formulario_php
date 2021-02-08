@@ -15,9 +15,11 @@ $apellido = $_POST['apellido'];
 $correo = $_POST['correo'];
 
 echo "<h3>Hola ".$nombre." ".$apellido."</h3>";
-echo "<p>".$correo."</p>";
+echo "<p>Su correo es ".$correo."</p>";
 
 ?>
+
+	<a href="form.php" class="btn btn-danger">Volver</a>
 
 </body>
 </html>
